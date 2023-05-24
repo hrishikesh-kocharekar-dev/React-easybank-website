@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;500;600&family=Public+Sans:wght@200;300;400;500&display=swap");
+body {
+  /* font-family: "Public Sans", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+code {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+  --GrayishBlue: hsl(233, 8%, 62%);
+  --LightGrayishBlue: hsl(220, 16%, 96%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* position: relative; */
+  overflow-x: hidden;
+  /* width: 100vw; */
+  font-family: "Public Sans", sans-serif;
+}
+
